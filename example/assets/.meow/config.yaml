@@ -1,0 +1,19 @@
+label: Meow
+image: assets/image.jpg
+locale: zh-CN
+# declare: '© 2021 魔咔啦咔 版权所有'
+
+router:
+  mode: history
+  routes:
+    - name: Flutter UI
+      include:
+        - name: Chat Sample
+          path: chat.md
+        - name: Video Sample
+          path: video.md
+    - name: Hello
+      path: hello.md
+
+styles:
+  primary: '#ffffff'
